@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora de matriz</title>
+</head>
+
+<body>
+    <div id="main-content">
+        <div id="header">
+            <h1>Calculadora de matriz</h1>
+        </div>
+        <div id="add-matriz">
+            <strong>Adicionar matrizes:</strong>
+            <div class="add_matriz_content">
+                <div class="box_inputs">
+                    <label for="name-matriz">Nome:</label>
+                    <input type="text" id="name-matriz">
+                </div>
+                <div class="box_inputs">
+                    <label for="row-matriz">Linhas:</label>
+                    <input type="number" id="row-matriz">
+                </div>
+                <div class="box_inputs">
+                    <label for="col-matriz">Colunas:</label>
+                    <input type="number" id="col-matriz">
+                </div>
+                <div class="box_inputs">
+                    <label for="btn-add-matriz"></label>
+                    <button id="btn-add-matriz">Adicionar matriz</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="matriz-content">
+            <div id="matriz-element"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
